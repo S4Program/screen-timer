@@ -70,7 +70,7 @@ int main()
     
     //---Setting up variables
     sf::Color backColor = sf::Color(240,240,240);
-    sf::Color foreColor = sf::Color(0,0,0);
+    sf::Color foreColor = sf::Color(95, 0, 0);
 
     //---Hitbox of the window
     sf::RectangleShape wbox(sf::Vector2f(window.getSize()));
