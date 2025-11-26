@@ -37,7 +37,7 @@ void saveUsersChoice(const char* folderpath, const char* filepath, bool state)
     {
         write = fopen(filepath,"w");
         fwrite(std::to_string(state).c_str(),1,1,write);
-        std::cout << std::setw(8) << std::left << "[WRITE] Successfully saved user's choice" << std::endl;
+        std::cout << std::setw(8) << std::left << "[WRITE]" << "Successfully saved user's choice" << std::endl;
     }
     fclose(write);
 }
