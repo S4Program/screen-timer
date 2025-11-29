@@ -130,7 +130,7 @@ int main()
         iTime.update();
 
         //---Closing the window with a right click
-        if(mh.isPressed().second)
+        if(mh.isPressed().second && mh.isHovered())
         {
             window.close();
             break;
